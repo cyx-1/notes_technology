@@ -1,4 +1,4 @@
-# Overview
+# Pre-commit
 
 - pre-commit maintains code quality prior to committing code
 - pre-commit is typically installed via [uv tool](uv.md)

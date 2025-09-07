@@ -1,4 +1,4 @@
-# Overview
+# uv
 
 Written in the Rust language, uv is a modern utility that handles library dependencies, global tools, virtual environments and Python intepretors. This utility makes pip, pipx, venv and pyenv obsolete, due to significant speed improvement and simplification. 
 

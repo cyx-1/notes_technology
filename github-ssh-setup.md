@@ -1,4 +1,4 @@
-# Overview
+# GitHub SSH Setup
 - using ssh key to work with GitHub is easy
   - for example, the following command should clone the repository
   ```

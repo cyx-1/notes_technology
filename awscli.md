@@ -1,4 +1,4 @@
-# Overview
+# AWS CLI
 
 - AWS CLI allows a machine to get access to various operations to control AWS resources. 
 - It is typically installed via [Choco](choco.md) on Windows

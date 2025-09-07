@@ -1,4 +1,4 @@
-# Overview
+# Choco
 - Choco is a popular package manager for Windows that simplifies the process of installing, updating, and managing software from the command line
 - Typically installing packages for choco requires opening Powershell terminal by running as administrator
 - To list the packages already installed, use this command: ```choco list```
