@@ -3,6 +3,7 @@
 - pre-commit maintains code quality prior to committing code
 - pre-commit is typically installed via [uv tool](uv.md)
 - pre-commit for each project is configured via a file called ```.pre-commit-config.yaml```, which typically contains content like this:
+
 ```
 repos:
 -   repo: https://github.com/psf/black
@@ -18,13 +19,17 @@ repos:
     - id: check-merge-conflict
     - id: check-json
 ```
+
 - To make sure pre-commit start to work for a project, run this command in the project folder:
+
 ```
 pre-commit install
 
 output should say: pre-commit installed at .git\hooks\pre-commit
 ```
+
 - next time prior to committing code via git, you will see checks like this:
+
 ```
 black....................................................................Passed
 check for merge conflicts................................................Passed
