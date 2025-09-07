@@ -1,1 +1,1 @@
-[AWS CLI](awscli.md) | [choco](choco.md) | [cookiecutter](cookiecutter.md) | [git](git.md) | [pre-commit](pre-commit.md) | [ruff](ruff.md) | [swift](swift.md) | [use ssh for GitHub](github-ssh-setup.md) | [uv](uv.md) | [xcode](xcode.md)
+[AWS CLI](awscli.md) | [Chocolatey](chocolatey.md) | [cookiecutter](cookiecutter.md) | [Git](git.md) | [pre-commit](pre-commit.md) | [ruff](ruff.md) | [Swift](swift.md) | [GitHub](github.md) | [uv](uv.md) | [Xcode](xcode.md)

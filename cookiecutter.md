@@ -1,6 +1,6 @@
 # Cookiecutter
 
-Cookiecutter is a command-line utility that helps developer create projects from predefined templates. 
+[Cookiecutter](https://github.com/cookiecutter/cookiecutter) is a command-line utility that helps developer create projects from predefined templates. 
 It is a python utility that is typically installed [uv](uv.md) via ```uv tool install``` so that cookiecutter command is available everywhere. 
 
 Use these command to create a new project from the existing template
