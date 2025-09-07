@@ -1,7 +1,8 @@
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
 
 title: Notes on Software
+tagline: Concise information to recall
 description: Concise information to recall
 show_downloads: false
