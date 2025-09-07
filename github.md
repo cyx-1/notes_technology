@@ -2,7 +2,10 @@
 
 ## GitHub pages
 - Turn a GitHub repository into a static web site: https://docs.github.com/en/pages/quickstart
-- Changes to a GitHub repository may take 1-10 minutes to update
+- Changes to a GitHub repository may take 1-10 minutes to update GitHub page
+
+## GitHub editor on the browser
+- Point browser to github.dev/<user>/<repo>
 
 ## GitHub SSH Setup
 - using ssh key to work with GitHub is easy
