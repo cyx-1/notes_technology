@@ -6,18 +6,20 @@
 
 ```
 repos:
--   repo: https://github.com/psf/black
-    rev: 25.1.0  # Latest as of July 2025
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.11 # Latest as of Aug 28, 2025
     hooks:
-    - id: black
-      # specifies which Python intepreter version should be used to run this hook
-      # it should be consistent with the python version used to install pre-commit in pipx
-      language_version: python3.11
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0  # Latest as of July 2025
+    rev: v6.0.0  # Latest as of August 9, 2025
     hooks:
     - id: check-merge-conflict
     - id: check-json
+      exclude: \.vscode/launch\.json$
+    - id: check-yaml
+    - id: trailing-whitespace
 ```
 
 - To make sure pre-commit start to work for a project, run this command in the project folder:
@@ -31,15 +33,12 @@ output should say: pre-commit installed at .git\hooks\pre-commit
 - next time prior to committing code via git, you will see checks like this:
 
 ```
-black....................................................................Passed
+ruff check...............................................................Passed
+ruff format..............................................................Passed
 check for merge conflicts................................................Passed
-fix double quoted strings................................................Passed
-check json...........................................(no files to check)Skipped
+check json...............................................................Passed
 check yaml...............................................................Passed
 trim trailing whitespace.................................................Passed
-flake8...................................................................Passed
-seed isort known_third_party.............................................Passed
-isort....................................................................Passed
 ```
 
 Back to [index](index.md)
