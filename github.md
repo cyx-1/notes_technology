@@ -4,6 +4,9 @@
 - Turn a GitHub repository into a static web site: https://docs.github.com/en/pages/quickstart
 - Changes to a GitHub repository may take 1-10 minutes to update GitHub page
 
+## GitHub MCP registry and allowlist
+- [GitHub Info on MCP registry and allowlist](https://docs.github.com/en/copilot/how-tos/administer-copilot/configure-mcp-server-access)
+
 ## GitHub editor on the browser
 - Point browser to github.dev/<user>/<repo>
 
