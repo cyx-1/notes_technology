@@ -3,6 +3,7 @@
 - [AWS CLI](awscli.md) 
 - [Chocolatey](chocolatey.md) 
 - [cookiecutter](cookiecutter.md) 
+- [end-of-life](end-of-life.md)
 - [Git](git.md) 
 - [GitHub](github.md) 
 - [pre-commit](pre-commit.md) 
