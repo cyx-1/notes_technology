@@ -9,5 +9,5 @@
 - [ruff](ruff.md) 
 - [Swift](swift.md) 
 - [uv](uv.md) 
-- [vscode.md](vscode.md)
+- [vscode](vscode.md)
 - [Xcode](xcode.md)

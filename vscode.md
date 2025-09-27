@@ -1,4 +1,4 @@
-# VS Code
+# VSCode
 - Useful extensions
     - general
         - github.copilot
