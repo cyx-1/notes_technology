@@ -2,6 +2,7 @@
 
 - [AWS CLI](awscli.md) 
 - [Chocolatey](chocolatey.md) 
+- [Claude Code](claude-code.md)
 - [cookiecutter](cookiecutter.md) 
 - [end-of-life](end-of-life.md)
 - [Git](git.md) 
