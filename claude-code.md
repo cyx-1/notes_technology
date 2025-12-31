@@ -18,6 +18,7 @@
         - [ccusage](https://github.com/ryoppippi/ccusage) 
             - doesn't show reset time
             - more useful when paying by API call
+    - claude chat history location: $USERPROFILE\\.claude\projects
 
 
 Back to [index](index.md)
