@@ -19,6 +19,12 @@
             - doesn't show reset time
             - more useful when paying by API call
     - claude chat history location: $USERPROFILE\\.claude\projects
+    - Claude controls Chrome:
+        - [Claude Code with Chrome](https://code.claude.com/docs/en/chrome)
+        - the following prompt appears to be taking and analyzing the screenshot
+        ```
+        claude --model haiku --chrome --permission-mode acceptEdits -p "open https://claude.ai/settings/usage page, and tell me what percentage is used for the current session, and when does it reset. return the result in yaml with two keys: plan _usage_limit_session_pct and plan_usage_limit_reset_time. plan_usage_limit_session_pct holds a numeric value, plan_usage _limit_reset_time holds a ISO timestamp in my machine's timezone. Save the yaml into a file called ./tmp/claude_usage.yaml"
+        ```
 
 
 Back to [index](index.md)
