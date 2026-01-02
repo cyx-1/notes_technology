@@ -10,6 +10,12 @@ The following commands are helpful
 - Install uv on MacOS or Linux: ```curl -LsSf https://astral.sh/uv/install.sh | sh```
 - Review current version for uv: ```uv --version```
 - Set up a Python project in an empty folder, creating core files such as pyproject.toml: ```uv init```
+- Set up a Python package project in an empty folder: ```uv init <package name> --package```
+    - push to remote to allow installation via git url, and then run as a command:
+        - ```uv tool install git+https://<website>/<repo>.git#subdirectory=<packagename>```
+        - ```<packagename>```
+    - or run directly via git url:
+        - ```uvx git+https://<website>/<repo>.git#subdirectory=<packagename>``` 
 - For a Python project that already has pyproject.toml file, run this command to synchronize the library installation: ```uv sync```
 - To add a library and its dependencies, update the top-level library dependency in pyproject.toml, run: ```uv add <package>```
 - To run a python program with automatic handling of virtual environment activation ```uv run <python file>```
