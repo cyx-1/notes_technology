@@ -1,5 +1,6 @@
 # Notes on Software
 
+- [AI](ai.md) 
 - [AWS CLI](awscli.md) 
 - [Chocolatey](chocolatey.md) 
 - [Claude Code](claude-code.md)
